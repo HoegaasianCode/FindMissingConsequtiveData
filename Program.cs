@@ -1,4 +1,9 @@
-﻿internal class Program
+/*
+   TODO:
+       (1): Skriv en funksjon som kan oppgi en samling av manglende id/ints.
+            Mangler Id 10-20, må det skrives opp logikk for en eller annen range.
+*/
+internal class Program
 {
         private static void Main(string[] args)
         {
