@@ -1,14 +1,15 @@
 ﻿internal class Program
 {
-    private static void Main(string[] args)
-    {
-        int[] intArr = { 9, 2, 4, 5, 6, 7, 1, 8 };
-        // {1, 2, 4, 5, 6, 7, 9} after Sort()
-        // string path = @"C:\Users\had00bin\Desktop\IdValues.txt";
-        // int[] intArr = GetIntArrFromTextFile(path);
-        List<int> missingIntList = new();
-        IsValidConsequtiveNumber(intArr, missingIntList);
-        // MyTestFunc(GetIntArrFromTextFile(path));
+        private static void Main(string[] args)
+        {
+            int[] intArr = { 9, 2, 4, 5, 6, 7, 1, 8 };
+            // {1, 2, 4, 5, 6, 7, 9} after Sort()
+            // string path = @"C:\Users\had00bin\Desktop\IdValues.txt";
+            // int[] intArr = GetIntArrFromTextFile(path);
+            List<int> missingIntList = new();
+            IsValidConsequtiveNumber(intArr, missingIntList);
+            // MyTestFunc(GetIntArrFromTextFile(path));
+        }
         void IsValidConsequtiveNumber(int[] intArr, List<int> missingIntList)
         {
             Array.Sort(intArr);
@@ -60,7 +61,6 @@
             }
         }
     }
-}
 /*
    --- Auxcillary functions go here ---
 */
